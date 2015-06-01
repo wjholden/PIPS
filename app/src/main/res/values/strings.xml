@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Pamn IP Scanner</string>
+	<string name="helpArgs">Nmap Arguments (e.g., --system-dns)</string>
+	<string name="helpTarget">Scan Target (e.g., 192.168.1.0/24)</string>
+	<string name="Start">Start</string>
+	<string name="Help">Help</string>
+	<string name="Share">Share</string>
+	<string name="History">History</string>
+	<string name="Subnet">Interfaces</string>
+	<string name="defaultText">Default Text</string>
+	<string name="Open">Open</string>
+	<string name="Delete">Delete</string>
+	<string name="illegalStateExceptionError">PIPS has encountered an IllegalStateException trying to open a database of your previous scans. This is a known bug, but I need more information to fix it. Send debugging information?</string>
+	<string name="gpl">This program is licensed according to the GNU Public License, version 2.0. The Nmap Security Scanner © has additional stipulations and interpretations of the GPL that are clarified at http://insecure.org.</string>
+	<string name="ScanSubnet">Scan my Subnet</string>
+	<string name="Clear">Clear</string>
+	<string name="longPress">Long press on an item to open, share, and delete.</string>
+	
+	<string name="OptionsDesc">Pamn IP Scanner Options</string>
+	<string name="Options">Options</string>
+	<string name="forceRoot">Force Root</string>
+	<string name="forceRootDesc">Unconditionally try to use the su command to gain root privileges.</string>
+	<string name="saveHistory">Save History</string>
+	<string name="saveHistoryDesc">Save old targets and scan results in pips.db accessible only by this program.</string>
+	<string name="showLogcat">logcat</string>
+	<string name="showLogcatDesc">Shows debugging information in logcat for development and debugging.</string>
+	
+	<string name="ip">IP address</string>
+	<string name="ping">Ping</string>
+	<string name="pingSpinnerInterfaces">Interface</string>
+	
+	<string name="pingWelcome">This experimental feature may not work on early versions of Android.</string>
+	
+	<string name="update">Update Support Files</string>
+	<string name="download">https://s3.amazonaws.com/nmap-dl/nmap-android/nmap-6.47-android-arm-bin.tar.bz2</string>
+
+	<string name="clear">To clear all history, uninstall and reinstall this program, then wipe free disk space.</string>
+</resources>

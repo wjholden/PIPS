@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/showOptionsActivity" android:title="@string/Options" android:checkable="true"></item>
+    <item android:id="@+id/clearItem" android:title="@string/Clear"></item>
+    <item android:id="@+id/pingItem" android:title="@string/ping"></item>
+    <item android:id="@+id/updateItem" android:title="@string/update"></item>
+
+</menu>

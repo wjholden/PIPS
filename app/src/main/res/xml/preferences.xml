@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="forceRoot"
+        android:summary="@string/forceRootDesc"
+        android:title="@string/forceRoot" />
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="saveHistory"
+        android:summary="@string/saveHistoryDesc"
+        android:title="@string/saveHistory" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="showLogcat"
+        android:summary="@string/showLogcatDesc"
+        android:title="@string/showLogcat" />
+    
+</PreferenceScreen>
